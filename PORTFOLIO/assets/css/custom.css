@@ -1,0 +1,316 @@
+.vlt-custom--8131 {
+	bottom: -250px;
+	left: -200px;
+	max-width: 550px;
+}
+
+.vlt-custom--1451 {
+	top: -25px;
+	left: -30px;
+	width: 256px;
+	height: 208px;
+}
+
+@media only screen and (max-width: 575px) {
+	.vlt-custom--1451 {
+		top: -100px;
+		left: -100px;
+	}
+}
+
+.vlt-custom--1512 {
+	bottom: -28vw;
+	left: 50vw;
+	width: 75vw;
+	height: 75vw;
+	background-size: cover;
+}
+
+
+.cool-container {
+	background-color: #000000; 
+	border-radius: 50px; 
+	padding: 5px 10px; 
+	text-align: center;
+	box-shadow: 0 0 10px rgba(232, 7, 7, 0.1); 
+  }
+  
+  .cool-container h3 {
+	margin: 5; /* remove the top and bottom margin */
+  }
+
+.vlt-navbar-contacts ul li a:hover {
+	color: hsl(0, 100%, 50%); /* change the text color on hover */
+	text-decoration: underline; /* add an underline on hover */
+  }
+  
+  .vlt-navbar-contacts ul li.sep:hover {
+	color: #000000; /* change the separator color on hover */
+	cursor: default; /* change the cursor to default */
+  }
+
+
+.vlt-custom--4124 {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 40vw;
+	height: 100%;
+	background-position: top left;
+	background-size: cover;
+}
+
+@media only screen and (max-width: 991px) {
+	.vlt-custom--4124 {
+		right: 0;
+		width: 50vw;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.vlt-custom--4124 {
+		right: -50vw;
+		width: 100vw;
+	}
+}
+
+.vlt-custom--1259 {
+	top: -20px;
+	right: -5px;
+	width: 256px;
+	height: 208px;
+}
+
+.vlt-custom--2355 {
+	bottom: -250px;
+	left: 0;
+	width: 389px;
+	height: 550px;
+}
+.tech-logos img {
+	top: 200px;
+	width: 50px; 
+	height: 50px;}
+
+
+	.vlt-services__text {
+		margin-bottom: 20px; 
+	  }
+	  
+	  .tech-logos {
+		display: flex;
+		gap: 10px; 
+		margin-top: 20px; 
+	  }
+	  
+	  .tech-logos img {
+		width: 50px; 
+		height: auto; 
+	  }
+
+	  .tech-logos img:hover {
+		transform: translateY(-10px); 
+	  }
+	  
+	  .vlt-progress-bar__title {
+		display: flex;
+		gap: 5px; 
+		margin-top: 10px;
+	  }
+
+	  
+
+	  .vlt-progress-bar__title img {
+		width: 50px; 
+		height: auto; 
+	  }
+
+.vlt-progress-bar__title img:hover {
+	transform: translateY(-10px); 
+  }
+
+
+
+
+	  .experience-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0 10px;
+		background-color: rgb(0, 0, 0);
+		border-radius: 10px;
+		box-shadow: 0 2px 4px rgba(255, 4, 4, 0.1);
+		transition: transform 0.3s ease;
+		
+
+	  }
+	  
+	  .experience-container h1 {
+		margin: 0;
+		padding:0 10px;
+		background: linear-gradient(135deg, #f20e25cc, #400202);
+	  	border-radius: 10px;
+		transition: transform 0.3s ease;
+	  }
+	  .experience-container h1:hover {
+		transform: scale(1.05);
+	}
+	  
+
+
+
+
+
+
+
+
+	.timeline-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 3px;
+		background-color: rgb(0, 0, 0);
+		border-radius: 3px;
+		box-shadow: 0 1px 3px rgba(255, 4, 4, 0.1); /* Smaller shadow */
+		margin-bottom: 10px;
+
+		background-color: rgb(0, 0, 0);
+		width: 85%;
+		height: 50px; /* Set this to your desired height */
+		box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+	}
+	
+	.timeline-item {
+		display: flex;
+		justify-content: space-between; /* Position one item on the left and one on the right */
+		align-items: center;
+		width: 100%;
+		max-width: 800px; /* Adjust max-width as needed */
+		background: linear-gradient(135deg, #f20e25cc, #400202);
+		color: white;
+		padding: -20px;
+		border-radius: 10px;
+		transition: transform 0.3s ease;
+	}
+	
+	.timeline-item:hover {
+		transform: scale(1.03);
+	}
+	
+	.timeline-year {
+		font-size: 1.5em;
+		font-weight: bold;
+		padding: 0 5px;
+	}
+	
+	.vlt-timeline-item__title {
+		font-size: 1.2em;
+		font-weight: bold;
+		padding: 0 5px;
+		text-align: right; /* Align text to the right */
+	}
+
+
+
+
+
+	.timeline-container2 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 3px;
+		background-color: rgb(0, 0, 0);
+		border-radius: 1px;
+		box-shadow: 0 1px 3px rgba(255, 4, 4, 0.1); /* Smaller shadow */
+
+		background-color: rgb(0, 0, 0);
+		width: 85%;
+		height: 50px;; /* background  height */
+		box-sizing: border-box; /*  padding is included in the element's total width and height */
+		margin-bottom: 20px;
+
+	}
+	
+	.timeline-item2 {
+		display: flex;
+		justify-content: space-between; /* Position one item on the left and one on the right */
+		align-items: center;
+		width: 120%;
+		max-width: 800px; /* Adjust max-width as needed */
+		background: linear-gradient(135deg, #f20e25cc, #400202);
+		color: white;
+		padding: 0 2px;
+		border-radius: 10px;
+		transition: transform 0.3s ease;
+	}
+	
+	.timeline-item2:hover {
+		transform: scale(1.03);
+	}
+	
+	.timeline-year2 {
+		font-size: 1.5em;
+		font-weight: bold;
+		padding: 0 5px;
+	}
+	
+	
+
+
+
+
+
+
+
+
+	.timeline-container3 {
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		padding: 10px;
+		background-color: rgb(0, 0, 0);
+		border-radius: 1px;
+		box-shadow: 0 1px 3px rgba(255, 4, 4, 0.1); /* Smaller shadow */
+
+		width: 85%;
+		height: 250px;; /* background  height */
+		box-sizing: border-box; /*  padding is included in the element's total width and height */
+		margin-bottom: 10px;
+
+	}
+	
+	.timeline-item3 {
+		display: flex;
+		justify-content: space-between; /* Position one item on the left and one on the right */
+		align-items: center;
+		width: 120%;
+		max-width: 800px; /* Adjust max-width as needed */
+		background: linear-gradient(135deg, #0c0404, #aa060697);
+		color: white;
+		padding: 0 2px;
+		border-radius: 10px;
+		transition: transform 0.5s ease;
+	}
+	
+	.timeline-item3:hover {
+		transform: scale(1.05);
+	}
+	
+	.timeline-year3 {
+		font-size: 1.0em;
+		font-weight: normal;
+		padding: 0 15px;
+	}
+
+
+
+	.vlt-navbar-logo img {
+		width: 150px; /* Adjust the width as needed */
+		height: 60; /* Maintain aspect ratio */
+		
+	}
+	
+
+
+
+	
